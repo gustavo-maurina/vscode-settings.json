@@ -1,14 +1,13 @@
-
 {
   // "editor.fontFamily": "Cascadia Code",
   // "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "400",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontSize": 12,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.indentation": true,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontWeight": "400",
   "editor.fontLigatures": true,
   "editor.rulers": [80, 80],
   "editor.formatOnSave": true,
@@ -156,6 +155,5 @@
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "workbench.editor.enablePreview": false,
-  "editor.cursorWidth": 3,
-  "workbench.colorTheme": "Aura Soft Dark"
+  "editor.cursorWidth": 3
 }
