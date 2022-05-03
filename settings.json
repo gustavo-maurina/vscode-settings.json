@@ -1,11 +1,15 @@
 {
   // "editor.fontFamily": "JetBrains Mono",
-  "editor.fontFamily": "SF Mono",
-  // "editor.fontFamily": "Cascadia Code",
+  // "editor.fontFamily": "SF Mono",
+  // "editor.fontFamily": "IBM Plex Mono",
   // "editor.fontFamily": "Source Code Pro",
-  "editor.fontSize": 13,
+  // "editor.fontFamily": "cascadia code",
+  // "editor.fontFamily": "pragmata",
+  "editor.fontFamily": "Monolisa",
+  "editor.fontWeight": "600",
+  "editor.fontSize": 12,
+  // "editor.letterSpacing": 0.1,
   "editor.lineHeight": 25,
-  "editor.letterSpacing": 0.5,
   "files.trimTrailingWhitespace": true,
   "editor.cursorStyle": "line",
   "terminal.integrated.cursorStyle": "line",
@@ -14,12 +18,13 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.rulers": [80, 80],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.colorDecorators": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true,
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
   "[python]": {
     "editor.tabSize": 4
@@ -50,6 +55,6 @@
   "editor.cursorWidth": 3,
   "color-highlight.matchWords": true,
   "tabnine.experimentalAutoImports": true,
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Dracula",
   "window.zoomLevel": 1
 }
